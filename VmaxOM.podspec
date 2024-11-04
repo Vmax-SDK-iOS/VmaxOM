@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = "VmaxOM"
-  spec.version = "1.0.2"
+  spec.version = "1.0.3"
   spec.summary = "VmaxOM enables open measurement viewability for Vmax Ads."
   spec.description = "VmaxOM enables open measurement viewability for Vmax Ads."
   spec.homepage = "https://github.com/Vmax-SDK-iOS/VmaxOM"

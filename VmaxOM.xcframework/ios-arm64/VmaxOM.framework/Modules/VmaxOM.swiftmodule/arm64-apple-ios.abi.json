@@ -1,0 +1,703 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxOM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxOM"
+      },
+      {
+        "kind": "Import",
+        "name": "OMSDK_Vmax2",
+        "printedName": "OMSDK_Vmax2",
+        "declKind": "Import",
+        "moduleName": "VmaxOM"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxOMViewability",
+        "printedName": "VmaxOMViewability",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxOMViewability",
+                "printedName": "VmaxOM.VmaxOMViewability",
+                "usr": "c:@M@VmaxOM@objc(cs)VmaxOMViewability"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VmaxOM@objc(cs)VmaxOMViewability(im)init",
+            "mangledName": "$s6VmaxOM0A13OMViewabilityCACycfc",
+            "moduleName": "VmaxOM",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(dict:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6VmaxOM0A13OMViewabilityC8register4dictySo12NSDictionaryC_tF",
+            "mangledName": "$s6VmaxOM0A13OMViewabilityC8register4dictySo12NSDictionaryC_tF",
+            "moduleName": "VmaxOM",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startSession",
+            "printedName": "startSession(dict:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxViewabilityMeta",
+                "printedName": "Vmax.VmaxViewabilityMeta",
+                "usr": "s:4Vmax0A15ViewabilityMetaV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6VmaxOM0A13OMViewabilityC12startSession4dicty0A00A15ViewabilityMetaV_tF",
+            "mangledName": "$s6VmaxOM0A13OMViewabilityC12startSession4dicty0A00A15ViewabilityMetaV_tF",
+            "moduleName": "VmaxOM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "emitEvent",
+            "printedName": "emitEvent(name:dict:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6VmaxOM0A13OMViewabilityC9emitEvent4name4dictySS_So12NSDictionaryCSgtF",
+            "mangledName": "$s6VmaxOM0A13OMViewabilityC9emitEvent4name4dictySS_So12NSDictionaryCSgtF",
+            "moduleName": "VmaxOM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endSession",
+            "printedName": "endSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6VmaxOM0A13OMViewabilityC10endSessionyyF",
+            "mangledName": "$s6VmaxOM0A13OMViewabilityC10endSessionyyF",
+            "moduleName": "VmaxOM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "injectScriptInHTMLAds",
+            "printedName": "injectScriptInHTMLAds(html:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6VmaxOM0A13OMViewabilityC21injectScriptInHTMLAds4htmlSSSgSS_tF",
+            "mangledName": "$s6VmaxOM0A13OMViewabilityC21injectScriptInHTMLAds4htmlSSSgSS_tF",
+            "moduleName": "VmaxOM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getVersion",
+            "printedName": "getVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6VmaxOM0A13OMViewabilityC10getVersionSSyFZ",
+            "mangledName": "$s6VmaxOM0A13OMViewabilityC10getVersionSSyFZ",
+            "moduleName": "VmaxOM",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VmaxOM@objc(cs)VmaxOMViewability",
+        "mangledName": "$s6VmaxOM0A13OMViewabilityC",
+        "moduleName": "VmaxOM",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "VmaxAdViewability",
+            "printedName": "VmaxAdViewability",
+            "usr": "s:4Vmax0A13AdViewabilityP",
+            "mangledName": "$s4Vmax0A13AdViewabilityP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 7,
+      "value": "\"Vmax2\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 1047,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 1231,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 1239,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 49,
+      "value": "\"VmaxAdViewability activate status : \""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 1356,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 1799,
+      "length": 33,
+      "value": "\"Initializing Ad Session \""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 1831,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 1912,
+      "length": 16,
+      "value": "\"webView is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 2031,
+      "length": 16,
+      "value": "\"partner is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 2246,
+      "length": 25,
+      "value": "\"adSessionContext is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2516,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 2546,
+      "length": 31,
+      "value": "\"adSessionConfiguration is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 2736,
+      "length": 18,
+      "value": "\"adSession is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 3134,
+      "length": 34,
+      "value": "\"Friendly Obstructions Registered\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 3442,
+      "length": 21,
+      "value": "\"Starting Ad Session\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 3503,
+      "length": 20,
+      "value": "\"Ad Session Started\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 3614,
+      "length": 33,
+      "value": "\"Initializing Ad Session \""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 3646,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 3738,
+      "length": 18,
+      "value": "\"mediaView is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 4285,
+      "length": 12,
+      "value": "\"url is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4582,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 4679,
+      "length": 45,
+      "value": "\"scriptResources.count < 0 || sScript is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 4951,
+      "length": 25,
+      "value": "\"adSessionContext is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5545,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 5574,
+      "length": 31,
+      "value": "\"adSessionConfiguration is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 6035,
+      "length": 18,
+      "value": "\"adSession is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 6181,
+      "length": 19,
+      "value": "\"AdView Registered\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 6475,
+      "length": 34,
+      "value": "\"Friendly Obstructions Registered\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 6773,
+      "length": 21,
+      "value": "\"Starting Ad Session\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 6834,
+      "length": 20,
+      "value": "\"Ad Session Started\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6915,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7003,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7165,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 7280,
+      "length": 25,
+      "value": "\"Ad Session Event Loaded\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7344,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 7692,
+      "length": 50,
+      "value": "\"name: \""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 7706,
+      "length": 1,
+      "value": "\", dict: \""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 7741,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 7840,
+      "length": 38,
+      "value": "\"Ad Session Event Impression Occurred\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 7967,
+      "length": 17,
+      "value": "\"adEvents is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 8063,
+      "length": 24,
+      "value": "\"omidVideoEvents is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 8248,
+      "length": 10,
+      "value": "\"duration\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 8290,
+      "length": 8,
+      "value": "\"volume\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "FloatLiteral",
+      "offset": 9258,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "FloatLiteral",
+      "offset": 9352,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 9399,
+      "length": 9,
+      "value": "\"skipped\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 9588,
+      "length": 24,
+      "value": "\"unknown event \""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 9610,
+      "length": 10,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 9681,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 10465,
+      "length": 11,
+      "value": "\"vmax_omid\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 10486,
+      "length": 4,
+      "value": "\"js\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 10547,
+      "length": 13,
+      "value": "\"path is nil\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-om\/VmaxOM\/VmaxOM\/Source\/VmaxOMViewability.swift",
+      "kind": "StringLiteral",
+      "offset": 10723,
+      "length": 13,
+      "value": "\"path is nil\""
+    }
+  ]
+}
