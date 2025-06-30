@@ -4,7 +4,7 @@ VmaxOM is a framework which enables Open Measurement viewability for Vmax Ads.
 
 ## Prerequisites
 
-- Use Xcode 13.3.1 or higher
+- Use Xcode 16.0 or higher
 - Target iOS 12.0 or higher
 - Requires a Vmax SDK
 
@@ -14,7 +14,7 @@ VmaxOM is available through [CocoaPods](https://cocoapods.org). To install it, s
 
 ```swift
 # Pods for YOUR_PROJECT_NAME
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Vmax-NG/VmaxPodSpec.git'
 
 target 'Sample-App' do
   use_frameworks!  

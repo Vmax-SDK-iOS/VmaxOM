@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = "VmaxOM"
-  spec.version = "1.0.3"
+  spec.version = "1.0.4"
   spec.summary = "VmaxOM enables open measurement viewability for Vmax Ads."
   spec.description = "VmaxOM enables open measurement viewability for Vmax Ads."
   spec.homepage = "https://github.com/Vmax-SDK-iOS/VmaxOM"
@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/Vmax-SDK-iOS/VmaxOM.git", :tag => spec.version.to_s}
   spec.ios.deployment_target = "12.0"
   spec.vendored_frameworks = "VmaxOM.xcframework","OMSDK_Vmax2.xcframework"
-  spec.ios.dependency "Vmax", '~> 4.0.0'
+  spec.ios.dependency "Vmax"
 
 end
