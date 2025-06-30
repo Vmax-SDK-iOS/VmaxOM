@@ -14,7 +14,7 @@ VmaxOM is available through [CocoaPods](https://cocoapods.org). To install it, s
 
 ```swift
 # Pods for YOUR_PROJECT_NAME
-source 'https://github.com/Vmax-NG/VmaxPodSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Sample-App' do
   use_frameworks!  
