@@ -5,7 +5,7 @@ VmaxOM is a framework which enables Open Measurement viewability for Vmax Ads.
 ## Prerequisites
 
 - Use Xcode 16.0 or higher
-- Target iOS 12.0 or higher
+- Target iOS 13.0 or higher
 - Requires a Vmax SDK
 
 ## Installation
@@ -30,4 +30,4 @@ Vserv Digital Services Pvt Ltd
 
 ## License
 
-Copyright 2023-2024 Vserv Digital Services Pvt Ltd. All rights reserved.
+Copyright 2023-2025 Vserv Digital Services Pvt Ltd. All rights reserved.
